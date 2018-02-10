@@ -8,4 +8,4 @@ Practice
 
 ##Screenshot##
 
-![screen](https://dl.dropboxusercontent.com/u/788402/Video/ALFlappyBird%20Demo%2020161102.gif)
+![screen](https://cdn.rawgit.com/cczallen/ALFlappyBird/20d0ae02/ALFlappyBird%20Demo%2020161102.gif)
