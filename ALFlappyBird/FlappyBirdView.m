@@ -9,7 +9,7 @@
 #define GetRandomBetween(min,max) (arc4random()%(max-min+1) +min)
 
 #define NumberOfPillars 15
-#define PillarsVerticalGap (140)
+#define PillarsVerticalGap (185)//(140)
 #define BirdFallsSpeed 4
 #define PillarsMovesSpeed 1.2
 #define EachBirdFlyHeight (60)
@@ -68,7 +68,7 @@
     CGColorRef pillarBackgroundColor = [UIColor colorWithRed:46/255.0 green:204/255.0 blue:113/255.0 alpha:1].CGColor;
     
     // upper pillar
-    CGFloat randomHeight = GetRandomBetween(0, (int)(CGRectGetHeight(self.bounds) * 0.3));
+    CGFloat randomHeight = GetRandomBetween(0, (int)(CGRectGetHeight(self.bounds) * 0.4));
     pillarActualHeight = pillarMinHeight + randomHeight;
     CALayer *upperPillar = ({
       CALayer *layer = [CALayer layer];
